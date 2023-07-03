@@ -1,0 +1,36 @@
+.musicPanel {
+  min-width: 370px;
+  background-color: #fff;
+  border-radius: 24px 0 0;
+}
+
+.topHundred {
+  padding-top: 32px;
+}
+
+.topHundredWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topHundredTitle {
+  margin-left: 24px;
+}
+
+.moreList {
+  color: #787887;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-right: 42px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.songList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 24px;
+}

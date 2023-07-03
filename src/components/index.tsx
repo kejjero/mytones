@@ -1,0 +1,6 @@
+export {default as  MainLayout} from './MainLayout/MainLayout.vue'
+export {default as Navigation} from './Navigation/MyNavigation.vue'
+export {default as HomePage} from './HomePage/HomePage.vue'
+export {default as Header} from './Header/MyHeader.vue'
+export {default as MusicPanel} from './MusicPanel/MusicPanel.vue'
+export {default as TopWeekSong} from './SongTemplates/TopWeekSong/TopWeekSong.vue'

@@ -1,4 +1,4 @@
-@import './base.css';
+@import './base.scss';
 
 #app {
   min-width: 320px;
@@ -11,4 +11,12 @@
 
 a {
   text-decoration: none;
+}
+
+.title {
+  color: #24242E;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
 }

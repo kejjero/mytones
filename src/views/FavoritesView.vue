@@ -1,7 +1,5 @@
-
-
 <template>
   <div>
-    aboutPage
+    favorites vue
   </div>
 </template>

@@ -1,5 +1,8 @@
-<template>
-  <div>
-    mainPage
-  </div>
+<template >
+  <HomePage />
 </template>
+
+
+<script setup>
+import {HomePage} from '@/components'
+</script>

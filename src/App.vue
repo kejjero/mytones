@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import Navigation from './components/Navigation/Navigation.vue'
-import Main from './components/Main.vue'
+import { MainLayout, Navigation } from '@/components'
 </script>
 
 <template>
   <div class="wrapper">
     <Navigation />
-    <Main />
+    <MainLayout />
   </div>
 </template>
 
@@ -15,5 +14,4 @@ import Main from './components/Main.vue'
   display: flex;
   justify-content: space-between;
 }
-
 </style>

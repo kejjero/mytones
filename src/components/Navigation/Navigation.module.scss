@@ -1,0 +1,30 @@
+.navigation {
+  min-width: 260px;
+  min-height: 100vh;
+  background: #fff;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+.logoName {
+  color: #4343EF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 8px;
+}
+
+.navList {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 46px;
+}

@@ -1,0 +1,35 @@
+
+.navItem {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  min-height: 46px;
+
+  &:hover {
+    background-color: #F0F0F5;
+  }
+}
+
+.navLink {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 42px;
+  min-height: 46px;
+  display: flex;
+}
+
+.navIcon {
+  margin-right: 24px;
+}
+
+.navName {
+  margin: 12px 0;
+  color: #4D4D56;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navNameActive {
+  color: #4343EF;
+  font-weight: 600;
+}
