@@ -1,0 +1,46 @@
+@import "@/styles/mixins.scss";
+
+.musicPlayer {
+  @include flex-column;
+}
+
+.title {
+  color: #24242E;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.musicLabel {
+  width: 200px;
+  height: 120px;
+  border-radius: 18px;
+  margin: 0 auto 11px auto;
+  background: #D6D6D6;
+}
+
+.musicLabelImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 11px;
+}
+
+.artist {
+  color: #24242E;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.song {
+  color: #4D4D56;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -12,13 +12,15 @@
             v-bind:song="song"
         />
       </ul>
+      <span :class="$style.border"/>
+      <MusicPlayer />
     </div>
   </div>
 </template>
 
 
 <script setup>
-import { TopWeekSong } from '@/components'
+import { TopWeekSong, MusicPlayer } from '@/components'
 import { usePlayerStore } from '@/stores/playerStore'
 const playerStore = usePlayerStore()
 
